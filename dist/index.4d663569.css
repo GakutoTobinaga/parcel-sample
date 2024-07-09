@@ -1,0 +1,35 @@
+h1 {
+  font-family: cursive;
+}
+
+h2 {
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(45deg, #6b6b6b, #fff);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.display-ingredients-area ul {
+  font-size: large;
+  font-style: bold;
+  padding: 0;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+}
+
+.display-instructions-area ul {
+  font-size: large;
+  font-style: bold;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+}
+/*# sourceMappingURL=index.4d663569.css.map */

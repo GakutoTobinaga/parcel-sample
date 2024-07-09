@@ -1,0 +1,19 @@
+{
+  "name": "parcel-sample",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "buffer": "^5.5.0||^6.0.0",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "type": "module"
+}
