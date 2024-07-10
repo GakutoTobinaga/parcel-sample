@@ -13,24 +13,25 @@ async function fetchData() {
     const titleElement = document.getElementById('recipe-name');
     titleElement.textContent = recipeName;
     // 材料を表示
-    const ingredientsList = document.createElement("ul");
-    ingredients.forEach(ingredient => {
-        const listItem = document.createElement("li");
-        listItem.textContent = ingredient;
-        ingredientsList.appendChild(listItem);
-    })
+    const ingredientsList = document.createElement('ul');
+    ingredients.forEach((ingredient) => {
+      const listItem = document.createElement('li');
+      listItem.textContent = ingredient;
+      ingredientsList.appendChild(listItem);
+    });
     // 手順を表示
     const instructionsList = document.createElement('ul');
-    instructions.forEach(step => {
+    instructions.forEach((step) => {
       const listItem = document.createElement('li');
       listItem.textContent = step;
       instructionsList.appendChild(listItem);
     });
 
     // <body>に材料リスト、手順リストを追加
-    document.getElementById("display-ingredients-area").appendChild(ingredientsList);
-    document.getElementById("display-instructions-area").appendChild(instructionsList);
-
+    document.getElementById('display-ingredients-area')
+        .appendChild(ingredientsList);
+    document.getElementById('display-instructions-area')
+        .appendChild(instructionsList);
   } catch (error) {
     console.error('Error fetching data:', error);
   }
