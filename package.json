@@ -5,6 +5,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build src/index.html",
+    "deploy": "netlify deploy --prod --dir=dist",
     "lint": "eslint . --ignore-pattern \"dist/*\""
   },
   "version": "1.0.0",
@@ -14,6 +15,7 @@
     "eslint": "9.x",
     "eslint-config-google": "^0.14.0",
     "globals": "^15.8.0",
+    "netlify-cli": "^17.33.0",
     "parcel": "latest"
   },
   "dependencies": {
